@@ -4,6 +4,22 @@ Sure! Here's a table that provides information about different deep learning mod
 
 | Model/Algorithm | Type | Architecture | Components | Application |
 |-----------------|------|--------------|------------|-------------|
+| Perceptron | Supervised | Single-layer neural network | Consists of input nodes, weights, activation function, and output node | Binary classification, linearly separable problems |
+| Multilayer Perceptron (MLP) | Supervised | Feedforward neural network with multiple hidden layers | Consists of input nodes, hidden layers with weights and activation functions, output layer | Classification, regression, complex non-linear problems |
+| Stochastic Gradient Descent (SGD) | Supervised | Optimization algorithm for training neural networks | Iterative optimization method that updates weights based on a subset of training data | Training deep neural networks, optimization |
+| Backpropagation | Supervised | Learning algorithm for training neural networks | Computes gradients of the loss function with respect to the weights, used in SGD for weight updates | Training deep neural networks, optimization |
+| Deep Neural Network (DNN) for Classification | Supervised | Multiple layers of interconnected nodes, typically with ReLU or sigmoid activations | Consists of input layer, multiple hidden layers with weights and activation functions, output layer with softmax activation | Classification tasks, image recognition, speech recognition |
+| Autoencoder | Unsupervised | Neural network with encoder and decoder components | Encoder compresses input data to lower-dimensional representation, decoder reconstructs original data | Dimensionality reduction, feature extraction, denoising, anomaly detection |
+| Convolutional Neural Network (CNN) | Supervised | Specialized neural network for processing grid-like data (e.g., images) | Consists of convolutional layers for feature extraction, pooling layers for downsampling, fully connected layers for classification | Image recognition, object detection, video analysis |
+| Long Short-Term Memory (LSTM) | Supervised | Recurrent neural network (RNN) architecture | Contains memory cells with gating mechanisms for capturing long-term dependencies | Sequence data processing, natural language processing, speech recognition |
+
+Note: Deep learning models and algorithms can be used for a variety of applications beyond those listed, and the architecture and components may vary depending on specific implementations and variations of these models/algorithms.
+
+
+Sure! Here's a table that provides information about different deep learning models/algorithms, including their type, architecture, components, and applications:
+
+| Model/Algorithm | Type | Architecture | Components | Application |
+|-----------------|------|--------------|------------|-------------|
 | Perceptron for AND gate | Supervised | Single-layer neural network with a single output neuron | Input layer with two input nodes, output layer with one output node | Simulating the AND gate logic with binary inputs and outputs |
 | Multilayer Perceptron for XOR gate | Supervised | Multilayer neural network with one or more hidden layers | Input layer with two input nodes, one or more hidden layers with variable number of nodes, output layer with one output node | Simulating the XOR gate logic with binary inputs and outputs |
 | Stochastic Gradient Descent (SGD) | Unsupervised | Optimization algorithm for training deep neural networks | Iterative optimization algorithm that updates model parameters based on a subset of training data at each iteration | Optimization of deep neural networks for various tasks |
