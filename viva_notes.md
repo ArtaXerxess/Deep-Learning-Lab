@@ -1,4 +1,4 @@
-# ViVa notes
+# VIVA Notes
 
 Sure! Here's a table that provides information about different deep learning models/algorithms, including their type, architecture, components, and applications:
 
