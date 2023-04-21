@@ -1,6 +1,6 @@
-# Viva Notes
- 
- Sure! Here's a table that provides information about different deep learning models/algorithms, including their type, architecture, components, and applications:
+# ViVa notes
+
+Sure! Here's a table that provides information about different deep learning models/algorithms, including their type, architecture, components, and applications:
 
 | Model/Algorithm | Type | Architecture | Components | Application |
 |-----------------|------|--------------|------------|-------------|
@@ -61,3 +61,13 @@ Sure! Here's a table that summarizes various regularization techniques and the p
 | Adding Noise to input & output | Overfitting       | Adds random noise to the input or output of the model during training, which helps to regularize the model by making it more robust to small perturbations in the input or output data. |
 
 Note: Regularization techniques are often used in combination to achieve better performance and prevent overfitting or underfitting in machine learning models. The choice of regularization technique(s) to use depends on the specific problem, data, and model architecture being used.
+
+In deep learning, regularization techniques such as Dropout, Early stopping, and Data augmentation can help address underfitting problems:
+
+Dropout: Dropout is a regularization technique where during training, randomly selected neurons are ignored, or "dropped out," with a certain probability. This helps in preventing the model from relying too heavily on specific neurons and encourages the learning of more robust features, which can help mitigate underfitting.
+
+Early stopping: Early stopping is a regularization technique that stops the training process before it reaches the maximum number of epochs if the performance on a validation set starts to degrade. This helps in preventing the model from overfitting the training data and improves its ability to generalize, which can also help address underfitting by stopping the training process at an appropriate point.
+
+Data augmentation: Data augmentation is a regularization technique where the training data is artificially augmented by applying various transformations, such as rotation, scaling, and flipping, to generate additional training samples. This helps in increasing the diversity and quantity of the training data, which can help the model learn more robust features and overcome underfitting by exposing it to more variations in the data.
+
+In summary, regularization techniques such as Dropout, Early stopping, and Data augmentation can help address underfitting problems in deep learning models by encouraging the learning of more robust features, stopping the training process at an appropriate point, and increasing the diversity of training data, respectively.
