@@ -1,5 +1,7 @@
 # VIVA Notes
 
+The main difference between Autoencoders and Principle Component Analysis (PCA) is that while PCA finds the directions along which you can project the data with maximum variance, Autoencoders reconstruct our original input given just a compressed version of it.
+
 Sure! Here's a table that provides information about different deep learning models/algorithms, including their type, architecture, components, and applications:
 
 | Model/Algorithm | Type | Architecture | Components | Application |
