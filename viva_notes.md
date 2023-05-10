@@ -2,6 +2,18 @@
 
 The main difference between Autoencoders and Principle Component Analysis (PCA) is that while PCA finds the directions along which you can project the data with maximum variance, Autoencoders reconstruct our original input given just a compressed version of it.
 
+
+Sure, here's an updated table that includes what each type of autoencoder is typically used for:
+
+| Type of Autoencoder | Description | Typical Use Cases |
+| --- | --- | --- |
+| Linear Autoencoder | A type of autoencoder that uses a linear activation function in the output layer. | Feature extraction, dimensionality reduction, data compression |
+| Undercomplete Autoencoder | A type of autoencoder that has a bottleneck layer that is smaller than the input layer, forcing the network to learn a compressed representation of the data. | Feature extraction, dimensionality reduction, data compression |
+| Denoising Autoencoder | A type of autoencoder that is trained to reconstruct the original input data from noisy or corrupted data. | Image and signal denoising, image and signal inpainting, anomaly detection |
+| Sparse Autoencoder | A type of autoencoder that learns a compressed representation of the data by enforcing sparsity in the activations of the hidden layer. | Feature extraction, anomaly detection, image and signal classification |
+| Contractive Autoencoder | A type of autoencoder that is trained to learn a compressed representation of the data by adding a penalty term to the loss function that measures the sensitivity of the hidden layer to small changes in the input. | Feature extraction, data compression, image and signal classification |
+
+
 Sure! Here's a table that provides information about different deep learning models/algorithms, including their type, architecture, components, and applications:
 
 | Model/Algorithm | Type | Architecture | Components | Application |
