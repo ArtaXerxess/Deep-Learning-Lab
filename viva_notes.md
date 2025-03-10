@@ -1,3 +1,5 @@
+https://fcrit-my.sharepoint.com/:f:/g/personal/dsouza_akash_comp_fcrit_ac_in/EgK_RRWz889Fkjj4uau119sBPzyhrbc1NwRoQDxVULlNpQ?e=4oPvjh
+
 # VIVA Notes
 
 The main difference between Autoencoders and Principle Component Analysis (PCA) is that while PCA finds the directions along which you can project the data with maximum variance, Autoencoders reconstruct our original input given just a compressed version of it.
